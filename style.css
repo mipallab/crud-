@@ -1,0 +1,84 @@
+body {
+	font-family: 'arial';
+	background-color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+}
+
+section	{
+	width: 800px;
+	margin: 100px auto;
+}
+
+section .header-area {
+	background-color: #cc2cac;
+	padding: 10px 30px;
+}
+section .header-area h3 {
+	color: white;
+	display: inline-block;
+}
+section .header-area h1	{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: 750;
+}
+section .form-area,
+section .contentDown-area {
+	padding: 50px 70px 100px;
+	background-color: #ffffff;
+	min-height: 400px;
+	background-color: white;
+}
+
+section  .form-area form{
+	padding: 30px 50px;
+	background-color: #ccc;
+	border-radius: 5px;
+}
+
+section .form-group label {
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	width: 170px;
+	margin-top: 5px;
+	display: inline-block;
+}
+section .form-group {
+	margin-bottom: 10px;
+}
+
+section .form-group input {
+	border: 2px solid #999;
+	font-size: 15px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	width: calc(100% - 209px);
+	margin-top: 5px;
+	display: inline-block;
+
+}
+.btn {
+	color: #fff;
+	background-color: #cc2cac;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 7px 10px;
+	margin: 0 0 0 176px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+section .error {
+	background: #cc2cac;
+	padding: 75px;
+	text-align: center;
+	color: white;
+	margin: 44px auto 0;
+	font-size: 20px;
+	border-radius: 5px;
+}
